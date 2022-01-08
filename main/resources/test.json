@@ -1,0 +1,19 @@
+{
+  "message": "Gelukt",
+  "keyValues": {
+    "clcr": {
+      "unit": "ml/min",
+      "unitCategory": "Default",
+      "value": 0,
+      "adviceKeyValueInformation": {
+      }
+    },
+    "clcrMonth": {
+      "unit": "ml/min",
+      "unitCategory": "Default",
+      "value": 0,
+      "adviceKeyValueInformation": {
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "laxantia": {
+    "name": "Laxantia bij opiodgebruik",
+    "1": {
+      "description": "Laxans in de actuele medicatie",
+      "true": "2",
+      "false": "3",
+      "last": false,
+      "medication": "laxans"
+    },
+    "2": {
+      "description": "Geen signaal",
+      "true": null,
+      "false": null,
+      "last": true
+    },
+    "3": {
+      "description": "Loperamide in de actuele medicatie",
+      "true": "4",
+      "false": "5",
+      "last": false,
+      "medication": "loperamide"
+    },
+    "4": {
+      "description": "Bij chronisch gebruik van opioden..",
+      "true": null,
+      "false": null,
+      "last": true
+    },
+    "5": {
+      "description": "Deze patient gebruikt geen laxans",
+      "true": null,
+      "false": null,
+      "last": true
+    }
+  }
+}

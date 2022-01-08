@@ -1,0 +1,249 @@
+{
+  "opioid": {
+    "id": 1,
+    "title": "Verstrekking opioïd",
+    "cases": {
+      "2": {
+        "caseName": "opioid",
+        "description": "Laxans in de actuele medicatie",
+        "keyValue": "laxans",
+        "condition": 0,
+        "operator": "boolean",
+        "category": "MedicationCategory",
+        "true": 3,
+        "false": 4,
+        "last": false,
+        "lastKey": false
+      },
+      "3": {
+        "caseName": "opioid",
+        "description": "Geen signaal",
+        "keyValue": "",
+        "condition": 0,
+        "operator": "",
+        "category": "",
+        "unit": "",
+        "true": 0,
+        "false": 0,
+        "last": true,
+        "lastKey": false
+      },
+      "4": {
+        "caseName": "opioid",
+        "description": "Loperamide in de actuele medicatie",
+        "keyValue": "loperamide",
+        "condition": 0,
+        "operator": "boolean",
+        "category": "Medication",
+        "true": 5,
+        "false": 6,
+        "last": false,
+        "lastKey": false
+      },
+      "5": {
+        "caseName": "opioid",
+        "description": "Overweeg of. Lopermaide gestopt kan worden tijdens gebruik van opioid. Bij regelmatige verandering in de ontlasting",
+        "keyValue": "",
+        "condition": 0,
+        "operator": "",
+        "category": "",
+        "true": 0,
+        "false": 0,
+        "last": true,
+        "lastKey": false
+      },
+      "6": {
+        "caseName": "opioid",
+        "description": "Voeg een. laxans toe",
+        "keyValue": "",
+        "condition": 0,
+        "operator": "",
+        "category": "",
+        "true": 0,
+        "false": 0,
+        "last": true,
+        "lastKey": true
+      }
+    }
+  },
+  "cotrimoxazol": {
+    "id": 1,
+    "title": "Verstrekking cotrimoxazol",
+    "cases": {
+      "2": {
+        "caseName": "cotrimoxazol",
+        "description": "Clcr bekend?",
+        "keyValue": "clcr",
+        "condition": 0,
+        "operator": "boolean",
+        "category": "Default",
+        "true": 3,
+        "false": 10,
+        "last": false,
+        "lastKey": false
+      },
+      "3": {
+        "caseName": "cotrimoxazol",
+        "description": "Clcr > 13 maanden?",
+        "keyValue": "clcrMonth",
+        "condition": 13,
+        "operator": ">",
+        "category": "Included",
+        "true": 7,
+        "false": 4,
+        "last": false,
+        "lastKey": false
+      },
+      "4": {
+        "caseName": "cotrimoxazol",
+        "description": "Clcr > 30 ml/min?",
+        "keyValue": "clcr",
+        "condition": 30,
+        "operator": ">",
+        "category": "Default",
+        "true": 9,
+        "false": 5,
+        "last": false,
+        "lastKey": false
+      },
+      "5": {
+        "caseName": "cotrimoxazol",
+        "description": "Clcr > 10 ml/min",
+        "keyValue": "clcr",
+        "condition": 10,
+        "operator": ">",
+        "category": "Default",
+        "true": 8,
+        "false": 6,
+        "last": false,
+        "lastKey": false
+      },
+      "6": {
+        "caseName": "cotrimoxazol",
+        "description": "Overleg met tweede lijn. Creatineklaring < 10 ml/min: een algemeen advies wordt niet gegeven",
+        "keyValue": "",
+        "condition": 0,
+        "operator": "",
+        "category": "",
+        "true": 0,
+        "false": 0,
+        "last": true,
+        "lastKey": false
+      },
+      "7": {
+        "caseName": "cotrimoxazol",
+        "description": "Bepaal of controle van de nierfunctie nodig is.",
+        "keyValue": "",
+        "condition": 0,
+        "operator": "",
+        "category": "",
+        "true": 0,
+        "false": 0,
+        "last": true,
+        "lastKey": false
+      },
+      "8": {
+        "caseName": "cotrimoxazol",
+        "description": "Behandeling dient plaats te vinden. Bij creatineklaring > 10 en < 30 ml/min. 50% van de normale keerdosis OF doseerinterval verdubbelen.",
+        "keyValue": "",
+        "condition": 0,
+        "operator": "",
+        "category": "",
+        "true": 0,
+        "false": 0,
+        "last": true,
+        "lastKey": false
+      },
+      "9": {
+        "caseName": "cotrimoxazol",
+        "description": "Geen signaal",
+        "keyValue": "",
+        "condition": 0,
+        "operator": "",
+        "category": "",
+        "true": 0,
+        "false": 0,
+        "last": true,
+        "lastKey": false
+      },
+      "10": {
+        "caseName": "cotrimoxazol",
+        "description": "Patiënt >= 70 jaar?",
+        "keyValue": "age",
+        "condition": 70,
+        "operator": ">=",
+        "category": "Account",
+        "true": 11,
+        "false": 12,
+        "last": false,
+        "lastKey": false
+      },
+      "11": {
+        "caseName": "cotrimoxazol",
+        "description": "Bepaal of controle van de nierfunctie nodig is",
+        "keyValue": "",
+        "condition": 0,
+        "operator": "",
+        "category": "",
+        "true": 0,
+        "false": 0,
+        "last": true,
+        "lastKey": false
+      },
+      "12": {
+        "caseName": "cotrimoxazol",
+        "description": "Geen signaal",
+        "keyValue": "",
+        "condition": 0,
+        "operator": "",
+        "category": "",
+        "true": 0,
+        "false": 0,
+        "last": true,
+        "lastKey": true
+      }
+    }
+  },
+  "Antimycotica bij inhalatiecorticosteroïden": {
+    "id": 1,
+    "title": "Verstrekking antimycoticum",
+    "cases": {
+      "2": {
+        "caseName": "Antimycotica bij inhalatiecorticosteroïden",
+        "description": "Inhalatiecotricosteroïd in de actuele medicatie",
+        "keyValue": "Inhalatiecotricosteroïd",
+        "condition": 0,
+        "operator": "",
+        "unit": "",
+        "true": 4,
+        "false": 3,
+        "last": false,
+        "lastKey": false
+      },
+      "3": {
+        "caseName": "Antimycotica bij inhalatiecorticosteroïden",
+        "description": "Geen signaal",
+        "keyValue": "",
+        "condition": 0,
+        "operator": "",
+        "unit": "",
+        "true": 0,
+        "false": 0,
+        "last": true,
+        "lastKey": false
+      },
+      "4": {
+        "caseName": "Antimycotica bij inhalatiecorticosteroïden",
+        "description": "Patiënt gebruikt een inhalatiecorticosteroïd...",
+        "keyValue": "",
+        "condition": 0,
+        "operator": "",
+        "unit": "",
+        "true": 5,
+        "false": 6,
+        "last": true,
+        "lastKey": true
+      }
+    }
+  }
+}

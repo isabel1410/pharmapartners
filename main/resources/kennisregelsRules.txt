@@ -1,0 +1,8 @@
+CATEGORY:
+	-Default: Standaard measurement van een gegeven. bijv ml/min.
+	-Included: Gecombineerde naam 2 delen. 1e deel gaat over gegeven, 2e deel over measurement. bijv clcrMonth.
+	-Medication: Kijken naar personMedication
+	-MedicationCategory: Kijken naar de category van een medicatie in personMedication
+
+
+

@@ -1,0 +1,33 @@
+{
+  "clcr": {
+    "name": "Nierfunctie (CLcr)",
+    "measurement": "ml/min",
+    "description": "CLcr staat voor creatine klaring. Dit gaat over het afbreken van afvalstoffen in je nieren"
+  },
+  "clcrMonth": {
+    "name": "Hoeveel maanden geleden is uw nierfunctie (CLcr) gemeten?",
+    "measurement": "maanden",
+    "description": ""
+  },
+  "laxans": {
+    "name": "Gebruik van een laxans",
+    "measurement": "",
+    "description": ""
+  },
+  "loperamide": {
+    "name": "Gebruik van lopereramide",
+    "measurement": "",
+    "description": ""
+  },
+  "nitrofurantoïne": {
+    "name": "Gebruik van nitrofurantoïne",
+    "measurement": "",
+    "description": ""
+  },
+  "age": {
+    "name": "Leeftijd",
+    "measurement": "jaar",
+    "description": ""
+  }
+}
+
