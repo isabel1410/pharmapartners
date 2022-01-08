@@ -1,0 +1,64 @@
+.account-main{
+	height: 50px;
+	border: 1px solid black;
+	overflow-y: hidden;
+	background-color: transparent;
+	width: 100%;
+	text-align: left;
+	
+}
+
+.account-header {
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.account-info {
+	height: 100px;
+}
+
+.form-item {
+	display: flex;
+	margin: 20px 5px;
+}
+
+.form-item label{
+	width: 100px;
+}
+
+.form-item input {
+	flex: 1;
+}
+
+.account-open {
+	height: unset;
+}
+
+.account-container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.input-container {
+	display: flex;
+}
+
+.input-container label{
+	width: 200px;
+}
+
+.input-container input{
+	flex: 1;
+}
+
+.logout-button {
+	position: absolute;
+	/* top: 0; */
+	right: 20px;
+}
+
+.account-buttons {
+	margin-top: 20px;
+}

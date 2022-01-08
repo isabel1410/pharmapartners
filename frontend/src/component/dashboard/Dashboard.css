@@ -1,0 +1,99 @@
+.active-advice {
+	min-height: 100px;
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 3px;
+}
+
+.active-advice-small{
+	font-size: 18px;
+}
+
+.advice-button {
+	background-color: #3d6c99 !important;
+}
+
+.advice-button:hover {
+	background-color: #004a91 !important;
+}
+
+.advice-selector {
+	height: 100%;
+	margin-top: 20px;
+}
+
+.removeMed {
+	background-color: transparent;
+	border: none;
+}
+
+.deleteIcon{
+	cursor: pointer;
+	fill: #C1272D;
+}
+
+.deleteIcon:hover {
+	fill: #7f1c1c;
+}
+
+.advice-red {
+	background-color: #e74c3c;
+}
+
+.advice-yellow {
+	background-color: #f1c40f;
+}
+
+.advice-green {
+	background-color: #2ecc71;
+}
+.advice-grey {
+	background-color: #95a5a6;
+}
+
+.popup-confirm {
+	background-color: #3d6c99 !important;
+}
+
+.popup-confirm:hover {
+	background-color: #004a91 !important;
+}
+
+.popup-cancel {
+	background-color: #C1272D !important;
+}
+
+.popup-cancel:hover {
+	background-color: #7f1c1c !important;
+}
+
+.medication-name{
+	text-transform: capitalize;
+}
+
+.medication-image {
+	max-height: 150px;
+}
+
+.medChange-popup{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.medChange-popup-name {
+	display: flex;
+	text-align: left;
+}
+.medChange-popup-data {
+	display: flex;
+}
+.medChange-popup-data input {
+	width: 100px;
+}
